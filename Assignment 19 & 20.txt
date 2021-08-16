@@ -9,11 +9,11 @@ this condition is false i.e (3==0) so it executes else statement of inner if and
 then it executes outer if statement i.e Third String 
 
 c)if(aNumber>=0)
-       if(aNumber==0)
-    	  System.out.println("First String");
-    	 else
+         if(aNumber==0)
+    	     System.out.println("First String");
+    	   else
     			 System.out.println("Second String");
-    System.out.println("Third String");    
+      System.out.println("Third String");    
      
 d)
 

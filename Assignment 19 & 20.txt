@@ -8,13 +8,13 @@ because the outer if condition (aNmuber>=0) is true i.e (3>=0) so it enters in o
 this condition is false i.e (3==0) so it executes else statement of inner if and print Second String
 then it executes outer if statement i.e Third String 
 
-c)if(aNumber>=0)
+c)if(aNumber>=0){
          if(aNumber==0)
     	     System.out.println("First String");
     	   else
     	    System.out.println("Second String");
       System.out.println("Third String");    
-     
+    } 
 d)
 
 if(aNumber>=0)

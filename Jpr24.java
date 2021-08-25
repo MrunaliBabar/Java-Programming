@@ -13,11 +13,11 @@ public class Jpr24 {
 		Account a=new Account();
 		a.Team();
 		
-	    Sales s=new Sales();
-	    s.Team();
+	        Sales s=new Sales();
+	        s.Team();
 	    
-	    testing t=new testing();
-	    t.Team();
+	        testing t=new testing();
+	        t.Team();
 	    
 	}
 

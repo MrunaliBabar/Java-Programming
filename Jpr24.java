@@ -48,7 +48,7 @@ class Design extends Company
 		
 		Teamcount=100;
 		AssignProject();
-		System.out.println("Team leader of department Development is "+TleaderName);
+		System.out.println("Team leader of department Design is "+TleaderName);
 	}
 	
 }
@@ -84,7 +84,7 @@ class Account extends Development
 		
 		Teamcount=100;
 		AssignProject();
-		System.out.println("Team leader of department Development is "+TleaderName);
+		System.out.println("Team leader of department Account is "+TleaderName);
 	}
 	
 	
@@ -101,7 +101,7 @@ class Sales extends Company
 		
 		Teamcount=100;
 		AssignProject();
-		System.out.println("Team leader of department Development is "+TleaderName);
+		System.out.println("Team leader of department Sales is "+TleaderName);
 	}
 	
 }
@@ -118,7 +118,7 @@ class testing  extends Sales
 		
 		Teamcount=100;
 		AssignProject();
-		System.out.println("Team leader of department Development is "+TleaderName);
+		System.out.println("Team leader of department Testing is "+TleaderName);
 	}
 	
 }

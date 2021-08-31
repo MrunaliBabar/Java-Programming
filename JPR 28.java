@@ -27,7 +27,7 @@ public class Modifi1 extends Test2{
 		
 		//Create object of class Test2 which have all methods and fields  protected 
 		Test2 t2=new Test2();
-		//t2.a=20;//Protected member not accessible
+		//t2.a=20;//Protected members not accessible outside package without using super 
 		
 		
        //Create object of class Test4 which have all methods and fields  public

@@ -11,14 +11,14 @@ public class Fetch_DB {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try{
-	          Class.forName("com.mysql.cj.jdbc.Driver");
-	          Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","");
-	          Statement s=con.createStatement();
-	          ResultSet rs =s.executeQuery("insert into Student Values(?,?)");
+	          Class.forName("com.mysql.cj.jdbc.Driver");//register driver class
+	          Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","");//create connection
+	          Statement s=con.createStatement();//create statement
+	          ResultSet rs =s.executeQuery("select * from Student");//select all database from student table
 	          while(rs.next()) {
-	          System.out.println(rs.getInt(1)+ ""+rs.getString(2)+""+rs.getString(3));
+	          System.out.println(rs.getInt(1)+ ""+rs.getString(2));
 	          }
-	          
+	          con.close();//close connection
 	        }catch(Exception e){
 	          e.printStackTrace();
 	        }
